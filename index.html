@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+   <meta charset="UTF-8" />
+   <title>Kubra Jafarova — Full-Stack Developer</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description"
+      content="Kubra Jafarova — Full-Stack Developer. React, Next.js, Node.js, PostgreSQL, Supabase ilə B2B sistemlər, admin panellər və avtomatlaşdırma həlləri." />
+
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet" />
+
+   <!-- Icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="./style.css">
+   <base target="_blank">
+</head>
+
+<body>
+   <!-- Animated Background Grid -->
+   <div class="bg-grid"></div>
+   <div class="bg-glow bg-glow-1"></div>
+   <div class="bg-glow bg-glow-2"></div>
+
+   <div class="page">
+
+      <!-- ================= HEADER ================= -->
+      <header>
+         <div class="header-inner">
+            <a href="#home" class="logo">
+               <div class="logo-mark">KJ</div>
+               <div class="logo-text">
+                  <span>Kubra Jafarova</span>
+                  <span>Full-Stack Developer</span>
+               </div>
+            </a>
+
+            <nav id="mainNav">
+               <a href="#home" class="active-link">Əsas</a>
+               <a href="#about">Haqqımda</a>
+               <a href="#projects">Layihələr</a>
+               <a href="#contact">Əlaqə</a>
+            </nav>
+
+            <div class="header-actions">
+               <button class="theme-toggle" id="themeToggle" aria-label="Temanı dəyiş">
+                  <i class="fa-solid fa-moon"></i>
+               </button>
+               <button class="mobile-menu-btn" id="menuBtn">
+                  <i class="fas fa-bars"></i>
+               </button>
+            </div>
+         </div>
+      </header>
+
+      <!-- ================= HERO ================= -->
+      <section id="home" class="hero">
+         <div class="hero-content reveal">
+            <div class="hero-badge">
+               <span class="hero-badge-dot"></span>
+               <span>Hazırda layihələrə açığam</span>
+            </div>
+
+            <h1 class="hero-title">
+               <span class="hero-title-line">Full-Stack</span>
+               <span class="hero-title-line accent">Developer</span>
+            </h1>
+
+            <p class="hero-desc">
+               React / Next.js & Node.js ilə B2B bizneslər üçün dinamik platformalar,
+               admin panellər və avtomatlaşdırma həlləri hazırlayıram.
+            </p>
+
+            <div class="hero-stats">
+               <div class="stat-item">
+                  <span class="stat-number">5+</span>
+                  <span class="stat-label">Real layihə</span>
+               </div>
+               <div class="stat-divider"></div>
+               <div class="stat-item">
+                  <span class="stat-number">Full</span>
+                  <span class="stat-label">Stack · B2B</span>
+               </div>
+               <div class="stat-divider"></div>
+               <div class="stat-item">
+                  <span class="stat-number">Remote</span>
+                  <span class="stat-label">Freelance</span>
+               </div>
+            </div>
+
+            <div class="hero-actions">
+               <a class="btn-primary" href="kubrajafar_CV.pdf" download="KubraJafar_CV_2025.pdf">
+                  <i class="fa-solid fa-download"></i>
+                  CV-ni yüklə
+               </a>
+               <a class="btn-ghost" href="https://www.linkedin.com/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  LinkedIn
+               </a>
+            </div>
+         </div>
+
+         <div class="hero-visual reveal">
+            <div class="code-window">
+               <div class="code-header">
+                  <div class="code-dots">
+                     <span></span><span></span><span></span>
+                  </div>
+                  <span class="code-filename">stack.js</span>
+               </div>
+               <div class="code-body">
+                  <pre><code><span class="code-keyword">const</span> <span class="code-var">developer</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Kubra Jafarova"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Full-Stack"</span>,
+  <span class="code-prop">stack</span>: [
+    <span class="code-string">"React"</span>, <span class="code-string">"Next.js"</span>,
+    <span class="code-string">"Node.js"</span>, <span class="code-string">"PostgreSQL"</span>,
+    <span class="code-string">"Supabase"</span>, <span class="code-string">"TypeScript"</span>
+  ],
+  <span class="code-prop">focus</span>: <span class="code-string">"B2B systems"</span>,
+  <span class="code-prop">status</span>: <span class="code-string">"Available"</span>
+};</code></pre>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- ================= TECH STACK ================= -->
+      <section class="tech-section reveal">
+         <div class="section-label">Texniki Stack</div>
+         <div class="tech-grid">
+            <div class="tech-category">
+               <div class="tech-cat-header">
+                  <i class="fa-solid fa-laptop-code"></i>
+                  <span>Frontend</span>
+               </div>
+               <div class="tech-tags">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">jQuery</span>
+                  <span class="tech-tag">SCSS</span>
+                  <span class="tech-tag">Ant Design</span>
+               </div>
+            </div>
+            <div class="tech-category">
+               <div class="tech-cat-header">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Backend</span>
+               </div>
+               <div class="tech-tags">
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express.js</span>
+                  <span class="tech-tag">Fastify</span>
+                  <span class="tech-tag">REST API</span>
+                  <span class="tech-tag">JWT</span>
+                  <span class="tech-tag">Python</span>
+               </div>
+            </div>
+            <div class="tech-category">
+               <div class="tech-cat-header">
+                  <i class="fa-solid fa-database"></i>
+                  <span>Database & DevOps</span>
+               </div>
+               <div class="tech-tags">
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Supabase</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Git</span>
+                  <span class="tech-tag">GitHub</span>
+                  <span class="tech-tag">Netlify</span>
+                  <span class="tech-tag">Swagger</span>
+                  <span class="tech-tag">Postman</span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section id="about">
+         <div class="section-header reveal">
+            <div>
+               <div class="section-label">Haqqımda</div>
+               <h2 class="section-title">Kiməm və nə edirəm</h2>
+            </div>
+         </div>
+
+         <div class="about-grid reveal">
+            <div class="about-card about-main">
+               <div class="about-text">
+                  <p>
+                     Full-stack developer kimi <strong>frontend</strong> və
+                     <strong>backend</strong> tərəfi bir yerdə düşünməyi sevirəm.
+                     Həm istifadəçi interfeysi, həm də arxa plandakı data strukturu
+                     məntiqi, təmiz və genişləndirilə bilən olsun.
+                  </p>
+                  <p>
+                     Son layihələrim əsasən viza və turizm sahəsinə yönəlib:
+                     müraciət formaları, xidmət və tur paketlərinin idarə olunması,
+                     rezervasiya prosesləri, admin panel və botlarla avtomatlaşdırılmış
+                     yoxlama sistemləri.
+                  </p>
+                  <p>
+                     <strong>Next.js + Node.js + PostgreSQL / Supabase</strong>
+                     stack-i ilə işləyir, deploy, domen, SSL, CORS, migrasiya, data
+                     modelləşdirmə kimi real problemləri özüm həll edirəm.
+                  </p>
+               </div>
+            </div>
+
+            <div class="about-card about-highlights">
+               <h3 class="about-card-title">Güclü tərəflərim</h3>
+               <ul class="about-list">
+                  <li>
+                     <span class="about-icon"><i class="fa-solid fa-passport"></i></span>
+                     <span>Visa / turizm, B2B panel və rezervasiya yönümlü həllər</span>
+                  </li>
+                  <li>
+                     <span class="about-icon"><i class="fa-solid fa-table-columns"></i></span>
+                     <span>Admin panel, CRUD, çoxdilli kontent, filtr / axtarış</span>
+                  </li>
+                  <li>
+                     <span class="about-icon"><i class="fa-solid fa-network-wired"></i></span>
+                     <span>Node.js & Supabase ilə REST API-lər, data modelləşdirmə</span>
+                  </li>
+                  <li>
+                     <span class="about-icon"><i class="fa-solid fa-robot"></i></span>
+                     <span>Appointment / slot yoxlama botları, Telegram bildirişləri</span>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section id="projects">
+         <div class="section-header reveal">
+            <div>
+               <div class="section-label">Portfoliom</div>
+               <h2 class="section-title">Seçilmiş layihələr</h2>
+            </div>
+            <div class="filter-pills">
+               <button class="filter-pill active" data-filter="all">Hamısı</button>
+               <button class="filter-pill" data-filter="fullstack">Full-Stack</button>
+               <button class="filter-pill" data-filter="frontend">Frontend</button>
+            </div>
+         </div>
+
+         <div class="projects-grid">
+            <!-- LAYİHƏ 1 -->
+            <article class="project-card reveal" data-category="fullstack">
+               <div class="project-img-wrapper">
+                  <img src="./image.png" alt="Visa & Travel Services" loading="lazy" />
+                  <div class="project-img-overlay">
+                     <a href="https://gubadibadli.com" target="_blank" class="project-view-btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı demo
+                     </a>
+                  </div>
+               </div>
+               <div class="project-body">
+                  <div class="project-meta">
+                     <span class="project-tag">Full-Stack</span>
+                     <span class="project-year">2024</span>
+                  </div>
+                  <h3 class="project-title">Visa & Travel Services</h3>
+                  <p class="project-desc">
+                     Viza və turizm xidmətləri üçün ölkə, xidmət və tur seçimi olan platforma.
+                     Admin panel vasitəsilə xidmətlər, turlar, mətnlər və vizual kontent tam idarə olunur.
+                  </p>
+                  <div class="project-tech">
+                     <span>JavaScript</span>
+                     <span>Node.js</span>
+                     <span>Express</span>
+                     <span>Supabase</span>
+                     <span>SCSS</span>
+                  </div>
+               </div>
+            </article>
+
+            <!-- LAYİHƏ 2 -->
+            <article class="project-card reveal" data-category="frontend">
+               <div class="project-img-wrapper">
+                  <img src="./image copy.png" alt="Courses & Events" loading="lazy" />
+                  <div class="project-img-overlay">
+                     <a href="https://www.zireculture.az" target="_blank" class="project-view-btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı demo
+                     </a>
+                  </div>
+               </div>
+               <div class="project-body">
+                  <div class="project-meta">
+                     <span class="project-tag">Frontend</span>
+                     <span class="project-year">2024</span>
+                  </div>
+                  <h3 class="project-title">Courses & Events</h3>
+                  <p class="project-desc">
+                     Kurslar və tədbirlər üçün kateqoriyalı, slider-lı frontend interfeysi.
+                     Admin paneldən gələn API dataları əsasında dinamik kurs və tədbir kartları.
+                  </p>
+                  <div class="project-tech">
+                     <span>HTML</span>
+                     <span>SCSS</span>
+                     <span>REST API</span>
+                  </div>
+               </div>
+            </article>
+
+            <!-- LAYİHƏ 3 -->
+            <article class="project-card reveal" data-category="fullstack">
+               <div class="project-img-wrapper">
+                  <img src="./admin.png" alt="Admin Panel" loading="lazy" />
+                  <div class="project-img-overlay">
+                     <a href="#" target="_blank" class="project-view-btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Canlı demo
+                     </a>
+                  </div>
+               </div>
+               <div class="project-body">
+                  <div class="project-meta">
+                     <span class="project-tag">Admin Panel</span>
+                     <span class="project-year">2024</span>
+                  </div>
+                  <h3 class="project-title">Service Management</h3>
+                  <p class="project-desc">
+                     Xidmət və turlar üçün CRUD əməliyyatları, qiymət, valyuta, müddət,
+                     əlavə məlumat və şəkil yükləmə funksionallığı olan admin panel.
+                  </p>
+                  <div class="project-tech">
+                     <span>JavaScript</span>
+                     <span>Node.js</span>
+                     <span>Supabase</span>
+                     <span>JWT</span>
+                  </div>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section id="contact">
+         <div class="section-header reveal">
+            <div>
+               <div class="section-label">Əlaqə</div>
+               <h2 class="section-title">Layihə təklifi?</h2>
+            </div>
+         </div>
+
+         <div class="contact-grid reveal">
+            <div class="contact-info">
+               <p class="contact-desc">
+                  Hazırda <span class="contact-highlight">remote və ya freelance full-stack layihələrə</span> açığam.
+                  Əməkdaşlıq, sual və ya layihə təklifi üçün əlaqə saxlaya bilərsiniz.
+               </p>
+
+               <div class="contact-links">
+                  <a href="mailto:kubraceferzade30@gmail.com" class="contact-link">
+                     <div class="contact-link-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                     </div>
+                     <div class="contact-link-info">
+                        <span class="contact-link-label">E-poçt</span>
+                        <span class="contact-link-value">kubraceferzade30@gmail.com</span>
+                     </div>
+                  </a>
+                  <a href="https://wa.me/994702494404" target="_blank" class="contact-link">
+                     <div class="contact-link-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                     </div>
+                     <div class="contact-link-info">
+                        <span class="contact-link-label">WhatsApp</span>
+                        <span class="contact-link-value">+994 70 249 44 04</span>
+                     </div>
+                  </a>
+                  <a href="https://github.com/KubraJafarova" target="_blank" class="contact-link">
+                     <div class="contact-link-icon">
+                        <i class="fa-brands fa-github"></i>
+                     </div>
+                     <div class="contact-link-info">
+                        <span class="contact-link-label">GitHub</span>
+                        <span class="contact-link-value">@KubraJafarova</span>
+                     </div>
+                  </a>
+                  <a href="https://www.linkedin.com/" target="_blank" class="contact-link">
+                     <div class="contact-link-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                     </div>
+                     <div class="contact-link-info">
+                        <span class="contact-link-label">LinkedIn</span>
+                        <span class="contact-link-value">Kubra Jafarova</span>
+                     </div>
+                  </a>
+               </div>
+            </div>
+
+            <div class="contact-cta">
+               <div class="cta-card">
+                  <h3 class="cta-title">Yeni layihəyə başlayaq</h3>
+                  <p class="cta-desc">
+                     Fikriniz var? Gəlin birlikdə onu real işlək sistemə çevirək.
+                  </p>
+                  <a class="btn-primary btn-large"
+                     href="https://mail.google.com/mail/?view=cm&fs=1&to=kubraceferzade30@gmail.com" target="_blank">
+                     <i class="fa-solid fa-paper-plane"></i>
+                     Mənə yaz
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer>
+         <div class="footer-content">
+            <div class="footer-brand">
+               <span class="footer-logo">KJ</span>
+               <span>Kubra Jafarova</span>
+            </div>
+            <p class="footer-copy">© 2025 · Bütün hüquqlar qorunur</p>
+            <div class="footer-social">
+               <a href="https://github.com/KubraJafarova" target="_blank"><i class="fa-brands fa-github"></i></a>
+               <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+               <a href="https://wa.me/994702494404" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <script src="./app.js" type="module"></script>
+</body>
+
+</html>
